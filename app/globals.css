@@ -7,6 +7,7 @@
   --card: #ffffff;
   --muted: #64748b;
   --border: #e2e8f0;
+  --border-radius-md: 12px;
 
   /* Teal primary (fun) but still professional */
   --primary-200: #99f6e4;
@@ -16,6 +17,15 @@
 
   --danger-50: #fef2f2;
   --danger-500: #ef4444;
+
+  /* These variables are consumed by components using inline `style` */
+  --color-background-primary: var(--card);
+  --color-background-secondary: var(--surface);
+  --color-background-tertiary: var(--surface);
+  --color-text-primary: var(--foreground);
+  --color-text-secondary: var(--muted);
+  --color-border-secondary: var(--border);
+  --color-border-tertiary: var(--border);
 }
 
 @theme inline {

@@ -49,7 +49,7 @@ export default function LoginPage() {
     <div className="relative flex min-h-screen items-center justify-center overflow-hidden px-4 text-foreground">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(900px_circle_at_20%_10%,rgba(20,184,166,0.22),transparent_55%),radial-gradient(700px_circle_at_90%_20%,rgba(59,130,246,0.16),transparent_50%),linear-gradient(180deg,var(--color-surface),var(--color-background))] opacity-100" />
 
-      <div className="relative w-full max-w-md rounded-2xl border border-border bg-card p-[1px] shadow-xl">
+      <div className="relative w-full max-w-md rounded-2xl border border-border bg-card p-px shadow-xl">
         <div className="rounded-2xl bg-card p-8">
           <h2 className="mb-6 text-center text-2xl font-bold text-foreground">
             Sign in
